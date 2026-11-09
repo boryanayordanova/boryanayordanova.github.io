@@ -196,7 +196,7 @@ p a:hover {
 }
 
 #bodyCursor {
-  cursor: none;
+  /* cursor: none; */
 }
 #cursor {
   position: absolute;
@@ -847,6 +847,11 @@ header h1 .professional {
     ARTICLE 
 -----------------*/
 
+ul {
+  padding: 20px 20px 0;
+  margin: 0;
+}
+
 @media only screen and (min-width: 768px) {
   article {
     /* height: 100vh;
@@ -1067,6 +1072,11 @@ header h1 .professional {
 #section-hello h2 {
   text-align: center;
   position: relative;
+}
+#section-hello .button-wrapper {
+  padding: 15px 0 0;  
+  display: flex;
+  justify-content: center;  
 }
 
 @media only screen and (min-width: 768px) {
@@ -1457,6 +1467,7 @@ input[type="checkbox"] {
 }
 .container-more {
   list-style: none;
+  display: flex;
 }
 
 @media only screen and (max-width: 1023px) {
